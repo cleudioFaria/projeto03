@@ -1,0 +1,310 @@
+/*estilos*/
+
+
+header{
+
+      border: 1px solid orange;
+      height: 300px;
+      width: 100%;
+      background-image: url(imagens/fundo10.jpeg);
+}
+
+/* menu */
+header nav li  {
+
+    display: inline-block;
+    padding-left: 250px;
+}
+
+nav{
+    margin-top: 100px;
+     
+
+}
+
+header nav li a {
+
+    text-align: center;
+    text-decoration: none;
+    color: #cec5c5;
+    background-color: blue;
+    padding: 20px;
+
+}
+
+/*estilizaçao do menu quando se passa o mouse em cima */
+
+header nav li a:hover {
+    color: #120b0b;
+    background-color: rgb(125, 125, 237);
+}
+
+
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+/* pagina principal */
+section{
+      border: 1px  solid rgb(55, 0, 255);
+      height: 700px;
+      width:  100%;
+      background-color: aqua;
+      padding: 50px;
+}
+
+
+/* Rodape  */
+footer{
+      border: 1px  solid  rgb(24, 204, 4);
+      height: 300px;
+      width:  100%;
+}
+
+/* estilizaçao dos produtos da pagina produtos  */ 
+.produtos{
+      border: 1px  solid rgb(55, 0, 255);
+      height: 500px;
+      width:  100%;
+      background-color: rgb(255, 0, 217);
+      padding: 50px;
+       
+}
+
+.produtos2{
+    border: 1px  solid rgb(55, 0, 255);
+    height: 500px;
+    width:  100%;
+    background-color: rgb(26, 255, 0);
+    padding: 50px;
+}
+
+.produtos3{
+    border: 1px  solid rgb(55, 0, 255);
+    height: 500px;
+    width:  100%;
+    background-color: rgb(255, 89, 0);
+    padding: 50px;
+}
+
+
+.l1{
+    color: rgb(228, 235, 241);
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+/* estilizaçao da pagina de contato   */
+
+
+#contato{
+  
+    margin-left: 5px;
+
+}
+
+#contato button{
+    
+    height: 50px;
+    width: 500px;
+    margin-left: 450px;
+
+}
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+/*estilizaçao da pagina index.html */
+/* centro da pagina */
+
+ 
+.produtoPrincipal{
+
+    border: 1px  solid rgb(55, 0, 255);
+    height: 800px;
+    width:  100%;
+    background-color: rgb(255, 0, 106);
+    padding: 50px;
+}
+
+/* estilizaçao do logo da marca 
+*/
+#logo{
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    float: left;
+    margin-top: 40px;
+
+}
+
+#logoImg{
+    width: 500px;
+    height: 500px;
+    
+
+}
+
+
+#sobre{
+
+    border: 1px solid black;
+    color: azure;
+    width: 700px;
+    height: 700px;
+    display: inline-block;
+    margin-left:190px;
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(187, 0, 255);
+
+}
+
+/*estilizaçao das letras  missao ,visao e valores*/
+
+#t1 ,#t2, #t3, #t4{
+   color: black;
+
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+/*estilizando o rodape da pagina ,  todas as paginas com mesmo padrão*/
+ 
+footer{
+
+    background-image: url(imagens/fundo10.jpeg);
+}
+
+
+
+
+
+#rodape{
+
+   border: 1px solid rgb(31, 29, 29);
+   width: 800px;
+   height: 280px;
+   margin-top: 10px;
+   float: left;
+}
+
+
+#rodape img {
+   padding: 20px;
+
+}
+
+#rodape h2 {
+    text-align: center;
+    color: rgb(31, 8, 105);
+ 
+ }
+
+/* estilizaçao do lado direito do rodape */
+ #rodape2{
+
+    border: 1px solid black;
+    width: 630px;
+    height: 280px;
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: 10px;
+ }
+
+ /*estilizando os h2 do rodape */
+
+
+ #rodape  h2{
+   color: aliceblue;
+
+ }
+
+ #rodape2  h2{
+    color: aliceblue;
+    text-align: center;
+ 
+  }
+
+#logo2{
+    margin-left: 30px;
+    float: left;
+}
+
+#zap{
+    float: left;
+
+}
+
+#linha{
+    color: aliceblue;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+#contato1{
+
+    display: inline-block;
+    margin-left: 20px;
+
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*estilizando os preços e tag comprar da pagina de produtos */
+
+
+.p{
+    color: rgb(31, 34, 34);
+    text-align: center;
+    list-style-type: none;
+}
+
+
+.c{
+  color: #f20909;
+  margin-left: 200px; 
+   
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/* estilizando o formulario de fa    */
+
+
+#formulario{
+  background-color: #26d60f;
+  border: 1px solid black;
+  width: 1400px;
+  height: 600px;
+}
+
+#formulario legend {
+  text-align: center;
+  color: rgb(20, 20, 19);
+  margin-top: 20px;
+}
+
+#formulario ,label, input {
+    text-align: center;
+     
+  }
+
+  #formulario textarea {
+    width: 500px;
+    height: 200px;
+     
+  } 
+  
+  #btn {
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    color: rgb(224, 225, 235);
+    background-color: rgb(37, 48, 210);
+     
+  }  
